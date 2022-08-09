@@ -22,7 +22,8 @@ def enablePrint():
     sys.stdout = sys.__stdout__
 
 blockPrint()
-
+import isce
+import isceobj
 from isceobj.Planet.Planet import Planet
 import glob
 import shelve
